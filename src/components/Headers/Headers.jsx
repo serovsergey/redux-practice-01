@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 import s from './headers.module.scss';
 import headerMenu from './header-menu';
@@ -25,6 +25,6 @@ export const Headers = () => {
   )
 };
 
-Headers.propTypes = {};
+// Headers.propTypes = {};
 
 export default Headers;

@@ -1,7 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
-import s from './cartPage.module.scss';
+// import s from './cartPage.module.scss';
 import { useSelector } from 'react-redux';
 
 const CartPage = (props) => {
@@ -23,6 +23,6 @@ const CartPage = (props) => {
   )
 };
 
-CartPage.propTypes = {};
+// CartPage.propTypes = {};
 
 export default CartPage;

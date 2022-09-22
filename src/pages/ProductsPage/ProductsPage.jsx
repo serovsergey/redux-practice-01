@@ -1,6 +1,6 @@
 import React from 'react';
 
-import s from './productsPage.module.scss';
+// import s from './productsPage.module.scss';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { getProducts } from 'services/productsApi';
@@ -55,6 +55,5 @@ const ProductsPage = () => {
     </ul>
   )
 };
-
 
 export default ProductsPage;
