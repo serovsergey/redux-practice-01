@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Route, Routes } from 'react-router-dom';
 import { lazy } from 'react';
 import { Suspense } from 'react';
@@ -19,6 +19,6 @@ const ClientRoutes = () => {
   )
 };
 
-ClientRoutes.propTypes = {};
+// ClientRoutes.propTypes = {};
 
 export default ClientRoutes;
